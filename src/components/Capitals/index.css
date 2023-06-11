@@ -1,0 +1,108 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+
+.capitals-container {
+  background-color: #f8fafc;
+  padding: 20px;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+  .capitals-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 96%;
+    max-width: 550px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: left;
+    font-size: 32px;
+  }
+}
+
+.countries-and-capitals-container {
+  display: flex;
+  align-items: center;
+}
+
+.selected-capital {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .selected-capital {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-size: 16px;
+    width: 180px;
+  }
+}
+
+.option {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #323f4b;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
+
+.question {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .question {
+    font-size: 16px;
+  }
+}
+
+.country {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .country {
+    font-size: 25px;
+  }
+}
